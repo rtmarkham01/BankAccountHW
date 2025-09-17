@@ -18,5 +18,9 @@ public class BankAccount{
     else
       throw new IllegalStateExeption("Login Error")
   }
-  
+  public static void main(String[] args){
+    BankAccountUser111 account1 = new bankAccount("Checking", 111, 1000.00, "8888");
+    System.out.println()
+    
+  }
 }
