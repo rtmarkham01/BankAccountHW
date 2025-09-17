@@ -12,6 +12,11 @@ public class BankAccount{
     this.pin=pin
     this.loggedin=false;
   }
-
+  public double getBalence(){
+    if (loggedin == true)
+      return balence;
+    else
+      throw new IllegalStateExeption("Login Error")
+  }
   
 }
